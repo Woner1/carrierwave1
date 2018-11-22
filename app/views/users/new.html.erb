@@ -1,0 +1,21 @@
+<%= form_for :image,url: users_path,:html => {:multipart => true} do |f| %>
+
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+   <%= f.label :image_url,'图片' %><br />
+    <%= f.file_field :image_url %>
+  </p>
+  <p>
+  <%= f.label :product_image_url,'产品图片' %><br />
+  <%= f.file_field :product_image_url %>
+  </p>
+  <%= f.label :pdf,'PDF' %><br />
+  <%= f.file_field :pdf %>
+
+
+  <p><%= f.submit %></p>
+<% end %>

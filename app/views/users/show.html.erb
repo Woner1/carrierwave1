@@ -1,0 +1,5 @@
+
+<%= image_tag @image.image_url.to_s ,size: "200x200"%>
+<%= image_tag @image.product_image_url.to_s,size: "200x200" %>
+<a href="<%= @image.pdf.to_s %>" download>查看PDF</a>
+
