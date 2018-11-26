@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
 
+gem 'activeadmin'
+gem 'devise'
+
 gem 'qiniu'
 
 gem 'carrierwave', '~> 1.2', '>= 1.2.3'
