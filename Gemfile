@@ -6,6 +6,8 @@ ruby '2.4.4'
 gem 'activeadmin'
 gem 'devise'
 
+gem 'i18n', '~> 1.1', '>= 1.1.1'
+
 gem 'qiniu'
 
 gem 'carrierwave', '~> 1.2', '>= 1.2.3'
